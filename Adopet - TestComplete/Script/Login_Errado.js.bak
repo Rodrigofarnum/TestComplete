@@ -1,0 +1,20 @@
+﻿function Test1()
+{
+  Browsers.Item(btEdge).Navigate("https://adopet-frontend-cypress.vercel.app/login");
+  let browser = Aliases.browser;
+  browser.BrowserWindow.Maximize();
+  let emailInput = browser.pageAdopet.sectionJTemContaFaASeuLogin;
+  emailInput.DigitarEmail.Click();
+  emailInput.DigitarSenha.Click();
+  emailInput.Click();
+}
+
+function Test2()
+{
+
+}
+
+function Test3()
+{
+  LLCollection1.Mensagem1.Execute(Aliases.browser.pageAdopet.sectionJTemContaFaASeuLogin.textnodeNecessRioInformarUmEnder);
+}

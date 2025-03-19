@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{66F8F181-5ECA-40EF-B566-48E2731E5A2F}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{E47EA3EF-C952-48D8-9C47-8E2497F9D74A}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{B8DB34AD-90C0-4580-B8AE-49CD989CCCD1}">
+								<Image FileName="790534745" Left="-8" Top="-8" Right="1928" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Chrome_RenderWidgetHostHWND" Key="{90EBD220-E013-4814-81C1-DF4F2836D3BE}">
+										<Image FileName="360302699" Left="0" Top="87" Right="1920" Bottom="1032" />
+										<TypeInfo Item0="{B1F41AD5-2017-466E-A611-22CA68699A15}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Chrome_RenderWidgetHostHWND" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Chrome Legacy Window" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAdopet" Key="{157E7E57-AB84-48F9-AA42-130F4868A1E0}">
+								<Image FileName="790534745" Left="0" Top="87" Right="1920" Bottom="1032" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://adopet-frontend-cypress.vercel.app/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionJTemContaFaASeuLogin" Key="{D3BB40C0-502A-432D-988C-D0426F3642B0}">
+										<Image FileName="790534745" Left="24" Top="165" Right="1927" Bottom="1110" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Já tem conta? Faça seu login:&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;register&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="DigitarEmail" Key="{A866FDD3-ADA4-4DC6-85E6-62431233048A}">
+										<Image FileName="790534745" Left="700" Top="423" Right="1252" Bottom="470" />
+										<TypeInfo Item0="{D6621678-4FF1-479F-A5D9-13482B630507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;E-mail&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="DigitarSenha" Key="{F7CDE3B9-BB0B-44B7-9945-594066EB6E4F}">
+										<Image FileName="-389920710" Left="700" Top="556" Right="1252" Bottom="603" />
+										<TypeInfo Item0="{300237DC-3A3B-46D8-8E92-A6E818EC9E15}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Senha&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#pass" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="BotaoEntrar" Key="{170A70A4-8014-4A72-9280-05B2543FE5D8}">
+										<Image FileName="-1489369234" Left="795" Top="636" Right="1157" Bottom="684" />
+										<TypeInfo Item0="{E3352E0D-B904-4AA7-A9DE-E96DCFE0A0CE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;submit-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Entrar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@role=&apos;link&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode" Key="{61B1B514-913D-4D15-AE3A-8827B85D1834}">
+										<Image FileName="-1929281351" Left="1199" Top="531" Right="1217" Bottom="547" />
+										<TypeInfo Item0="{D6621678-4FF1-479F-A5D9-13482B630507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[contains(@class, &apos;pass__view&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNecessRioInformarUmEnder" Key="{B2170E4E-0291-4836-9FA6-4ABFC0BC01B0}">
+										<Image FileName="1668741947" Left="709" Top="471" Right="1261" Bottom="495" />
+										<TypeInfo Item0="{48E06F1E-4073-4A23-AC85-30AC8D7AD909}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;É necessário informar um endereço de email&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeInsiraSuaSenha" Key="{00AD24A3-0FAF-4AB1-A7A1-AA174983E172}">
+										<Image FileName="-539642484" Left="709" Top="604" Right="1261" Bottom="628" />
+										<TypeInfo Item0="{48E06F1E-4073-4A23-AC85-30AC8D7AD909}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Insira sua senha&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePorFavorVerifiqueOEmail" Key="{C63A69A8-212E-4A8E-A38C-8D9BB3C414E5}">
+										<Image FileName="-1811367763" Left="709" Top="471" Right="1261" Bottom="495" />
+										<TypeInfo Item0="{48E06F1E-4073-4A23-AC85-30AC8D7AD909}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Por favor, verifique o email digitado&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeASenhaDeveConterPeloMeno" Key="{D2DCF347-DBDB-4C3F-8476-A68FBBDA5513}">
+										<Image FileName="-1811367763" Left="709" Top="604" Right="1261" Bottom="652" />
+										<TypeInfo Item0="{48E06F1E-4073-4A23-AC85-30AC8D7AD909}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/p[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeFalhaNoLoginConsulteSuas" Key="{87EC333B-D86A-4CA0-9BFC-4A22300BD281}">
+										<Image FileName="706974349" Left="709" Top="687" Right="1261" Bottom="711" />
+										<TypeInfo Item0="{48E06F1E-4073-4A23-AC85-30AC8D7AD909}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Falha no login. Consulte suas credenciais.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//p[contains(@class, &apos;error&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkEsqueciMinhaSenha" Key="{76CB1E78-64DA-457D-B3A6-D0E011397DE2}">
+										<Image FileName="-1427247237" Left="902" Top="658" Right="1052" Bottom="679" />
+										<TypeInfo Item0="{D6621678-4FF1-479F-A5D9-13482B630507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;Esqueci minha senha&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;register__forgot&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow2" Key="{4E33861B-C313-49C0-B9C3-71D6DB24C8AE}">
+								<Image FileName="1493685538" Left="-8" Top="-8" Right="1928" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="1" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageImplantaOFiscalContabilIChat" Key="{99E9F485-440E-48D4-BA98-A7BE27A4C648}">
+								<Image FileName="1493685538" Left="0" Top="87" Right="1919" Bottom="1031" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://mail.google.com/chat/u/0/*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="frameSingleFullScreen" Key="{16DDE1B4-0EAF-45A5-AF73-89C92AB23BAF}">
+										<Image FileName="1493685538" Left="288" Top="145" Right="1870" Bottom="1018" />
+										<TypeInfo Item0="{D6621678-4FF1-479F-A5D9-13482B630507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//iframe[@name=&apos;single_full_screen&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[@title=&apos;Conteúdo do chat&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//iframe[contains(@class, &apos;aAtlvd&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]/div/iframe" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAdopet2" Key="{EDA65185-7C67-49CB-8411-EBDA5D0F86AB}">
+								<Image FileName="54626488" Left="0" Top="87" Right="1920" Bottom="1032" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://adopet-frontend-cypress.vercel.app/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionBoasVindas" Key="{A4B867AA-D365-4120-80AE-6E61C4828D1E}">
+										<Image FileName="54626488" Left="0" Top="165" Right="1903" Bottom="592" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Boas-vindas!&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;initial&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="BotaoLogin" Key="{4BE04019-F74B-4AAB-BDD3-3FD4D5E0B9B2}">
+										<Image FileName="54626488" Left="968" Top="530" Right="1056" Bottom="554" />
+										<TypeInfo Item0="{D6621678-4FF1-479F-A5D9-13482B630507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;login-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//a[.=&apos;Fazer login&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{CC7B8064-85F2-4568-9A0E-639466FE276F}">
+								<Image FileName="992646953" Left="0" Top="0" Right="236" Bottom="238" />
+								<TypeInfo Item0="{04549B1F-4370-4D99-B1C6-4B89AD4F37BE}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageAdopet3" Key="{574D95B0-50EF-422E-ABEF-8FFE1285BA8E}">
+								<Image FileName="925863778" Left="4" Top="74" Right="1916" Bottom="1028" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://adopet-frontend-cypress.vercel.app/home" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{4D015C1C-B41D-48A1-AA23-4681FD2874B7}">
+										<Image FileName="-708175997" Left="4" Top="74" Right="1901" Bottom="184" />
+										<Selectors>
+											<Selector>
+												<Value Value="//header[contains(@class, &apos;header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkTelaInicial" Key="{54BD9EE3-8A5C-45AD-9937-95E592C6D1DA}">
+										<Image FileName="-708175997" Left="354" Top="138" Right="378" Bottom="162" />
+										<TypeInfo Item0="{D6621678-4FF1-479F-A5D9-13482B630507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[contains(@class, &apos;header__home&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionOl" Key="{3BCDA283-762F-4A07-8C41-1B89D6948DD3}">
+										<Image FileName="-321658685" Left="4" Top="184" Right="1901" Bottom="1138" />
+										<TypeInfo Item0="{D6621678-4FF1-479F-A5D9-13482B630507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Olá!&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageAdopet4" Key="{EADF196A-03B7-487B-A550-8BC15B334E7C}">
+								<Image FileName="1214099419" Left="4" Top="74" Right="1916" Bottom="1028" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://adopet-frontend-cypress.vercel.app/cadastro" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionAindaNOTemCadastro" Key="{7F598AA3-7B80-4F13-9C1B-621AC625F21B}">
+										<Image FileName="1214099419" Left="28" Top="152" Right="1877" Bottom="1106" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Ainda não tem cadastro?&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;register&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxNome" Key="{E6C0B95F-3055-45C2-B2C0-B2F25DAF488D}">
+										<Image FileName="1214099419" Left="677" Top="458" Right="1229" Bottom="505" />
+										<TypeInfo Item0="{300237DC-3A3B-46D8-8E92-A6E818EC9E15}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Nome&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;nome&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="emailinputEMail" Key="{21553570-D25B-4AD3-A5C9-FFEDC5ACA8D4}">
+										<Image FileName="-722759637" Left="677" Top="563" Right="1229" Bottom="610" />
+										<TypeInfo Item0="{D6621678-4FF1-479F-A5D9-13482B630507}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;E-mail&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#email" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;email&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxSenha" Key="{87EA22A9-B0C1-4B6A-A39C-FD3226378730}">
+										<Image FileName="1932084631" Left="677" Top="668" Right="1229" Bottom="715" />
+										<TypeInfo Item0="{300237DC-3A3B-46D8-8E92-A6E818EC9E15}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Senha&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#pass-create" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxConfirmeSuaSenha" Key="{971692C5-B2BD-4D8C-88D9-20A286A133E9}">
+										<Image FileName="904355238" Left="677" Top="772" Right="1229" Bottom="819" />
+										<TypeInfo Item0="{300237DC-3A3B-46D8-8E92-A6E818EC9E15}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Confirme sua senha&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#pass-confirm" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;confirm_password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//span[2]/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonCadastrar" Key="{5ED14DC5-E94A-4ED0-8C1D-1BF3B90087CB}">
+										<Image FileName="-309594892" Left="772" Top="845" Right="1134" Bottom="893" />
+										<TypeInfo Item0="{E3352E0D-B904-4AA7-A9DE-E96DCFE0A0CE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;submit-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Cadastrar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@role=&apos;link&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodePorFavorVerifiqueOEmail" Key="{B7EB1D75-F774-4DD0-B9E8-22DE7F877CA0}">
+										<Image FileName="1732753040" Left="685" Top="624" Right="1237" Bottom="648" />
+										<TypeInfo Item0="{48E06F1E-4073-4A23-AC85-30AC8D7AD909}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;Por favor, verifique o email digitado&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeASenhaDeveConterPeloMeno" Key="{4474E70F-4C66-44FE-96ED-D749AB9596A1}">
+										<Image FileName="-748170755" Left="685" Top="756" Right="1237" Bottom="804" />
+										<TypeInfo Item0="{48E06F1E-4073-4A23-AC85-30AC8D7AD909}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//form/p[2]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeAsSenhasNOBatem" Key="{EDC3DC06-3A04-4598-9611-97B2814C436A}">
+										<Image FileName="1646096373" Left="685" Top="913" Right="1237" Bottom="937" />
+										<TypeInfo Item0="{48E06F1E-4073-4A23-AC85-30AC8D7AD909}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//p[.=&apos;As senhas não batem&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{00D7B72C-4942-417C-ABBA-ABA9F900FCFA}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{699A96BC-4617-4180-811B-944604F9763A}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{85F3E701-9582-4F54-BC76-1528966F5FCC}">
+										<TypeInfo Item0="{B1F41AD5-2017-466E-A611-22CA68699A15}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{E47EA3EF-C952-48D8-9C47-8E2497F9D74A}">
+			<Child Name="BrowserWindow" Owner="{B8DB34AD-90C0-4580-B8AE-49CD989CCCD1}">
+				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{90EBD220-E013-4814-81C1-DF4F2836D3BE}" />
+			</Child>
+			<Child Name="pageAdopet" Owner="{157E7E57-AB84-48F9-AA42-130F4868A1E0}">
+				<Child Name="sectionJTemContaFaASeuLogin" Owner="{D3BB40C0-502A-432D-988C-D0426F3642B0}">
+					<Child Name="DigitarEmail" Owner="{A866FDD3-ADA4-4DC6-85E6-62431233048A}" />
+					<Child Name="DigitarSenha" Owner="{F7CDE3B9-BB0B-44B7-9945-594066EB6E4F}" />
+					<Child Name="BotaoEntrar" Owner="{170A70A4-8014-4A72-9280-05B2543FE5D8}" />
+					<Child Name="textnode" Owner="{61B1B514-913D-4D15-AE3A-8827B85D1834}" />
+					<Child Name="textnodeNecessRioInformarUmEnder" Owner="{B2170E4E-0291-4836-9FA6-4ABFC0BC01B0}" />
+					<Child Name="textnodeInsiraSuaSenha" Owner="{00AD24A3-0FAF-4AB1-A7A1-AA174983E172}" />
+					<Child Name="textnodePorFavorVerifiqueOEmail" Owner="{C63A69A8-212E-4A8E-A38C-8D9BB3C414E5}" />
+					<Child Name="textnodeASenhaDeveConterPeloMeno" Owner="{D2DCF347-DBDB-4C3F-8476-A68FBBDA5513}" />
+					<Child Name="textnodeFalhaNoLoginConsulteSuas" Owner="{87EC333B-D86A-4CA0-9BFC-4A22300BD281}" />
+					<Child Name="linkEsqueciMinhaSenha" Owner="{76CB1E78-64DA-457D-B3A6-D0E011397DE2}" />
+				</Child>
+			</Child>
+			<Child Name="BrowserWindow2" Owner="{4E33861B-C313-49C0-B9C3-71D6DB24C8AE}" />
+			<Child Name="pageImplantaOFiscalContabilIChat" Owner="{99E9F485-440E-48D4-BA98-A7BE27A4C648}">
+				<Child Name="frameSingleFullScreen" Owner="{16DDE1B4-0EAF-45A5-AF73-89C92AB23BAF}" />
+			</Child>
+			<Child Name="pageAdopet2" Owner="{EDA65185-7C67-49CB-8411-EBDA5D0F86AB}">
+				<Child Name="sectionBoasVindas" Owner="{A4B867AA-D365-4120-80AE-6E61C4828D1E}">
+					<Child Name="BotaoLogin" Owner="{4BE04019-F74B-4AAB-BDD3-3FD4D5E0B9B2}" />
+				</Child>
+			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{CC7B8064-85F2-4568-9A0E-639466FE276F}" />
+			<Child Name="pageAdopet3" Owner="{574D95B0-50EF-422E-ABEF-8FFE1285BA8E}">
+				<Child Name="header" Owner="{4D015C1C-B41D-48A1-AA23-4681FD2874B7}">
+					<Child Name="linkTelaInicial" Owner="{54BD9EE3-8A5C-45AD-9937-95E592C6D1DA}" />
+				</Child>
+				<Child Name="sectionOl" Owner="{3BCDA283-762F-4A07-8C41-1B89D6948DD3}" />
+			</Child>
+			<Child Name="pageAdopet4" Owner="{EADF196A-03B7-487B-A550-8BC15B334E7C}">
+				<Child Name="sectionAindaNOTemCadastro" Owner="{7F598AA3-7B80-4F13-9C1B-621AC625F21B}">
+					<Child Name="textboxNome" Owner="{E6C0B95F-3055-45C2-B2C0-B2F25DAF488D}" />
+					<Child Name="emailinputEMail" Owner="{21553570-D25B-4AD3-A5C9-FFEDC5ACA8D4}" />
+					<Child Name="passwordboxSenha" Owner="{87EA22A9-B0C1-4B6A-A39C-FD3226378730}" />
+					<Child Name="passwordboxConfirmeSuaSenha" Owner="{971692C5-B2BD-4D8C-88D9-20A286A133E9}" />
+					<Child Name="buttonCadastrar" Owner="{5ED14DC5-E94A-4ED0-8C1D-1BF3B90087CB}" />
+					<Child Name="textnodePorFavorVerifiqueOEmail" Owner="{B7EB1D75-F774-4DD0-B9E8-22DE7F877CA0}" />
+					<Child Name="textnodeASenhaDeveConterPeloMeno" Owner="{4474E70F-4C66-44FE-96ED-D749AB9596A1}" />
+					<Child Name="textnodeAsSenhasNOBatem" Owner="{EDC3DC06-3A04-4598-9611-97B2814C436A}" />
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{00D7B72C-4942-417C-ABBA-ABA9F900FCFA}">
+			<Child Name="wndShell_TrayWnd" Owner="{699A96BC-4617-4180-811B-944604F9763A}">
+				<Child Name="DesktopWindowXamlSource" Owner="{85F3E701-9582-4F54-BC76-1528966F5FCC}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

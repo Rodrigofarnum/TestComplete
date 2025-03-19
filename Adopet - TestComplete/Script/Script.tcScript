@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Login_Correto" key="{D5820B3F-F6F5-4302-B9FC-2530F4ACE4D9}" path="Login_Correto.js" />
+		<child name="API" key="{8CFCC48A-9BCA-42DB-96F9-774AD404A85B}" path="API.js" />
+		<child name="Cadastro_Correto" key="{F885211D-0EAB-485C-A337-5E8641386296}" path="Cadastro_Correto.js" />
+	</children>
+</Root>

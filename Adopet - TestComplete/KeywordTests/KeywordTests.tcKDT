@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Login_Correto" key="{F09679AC-F3DC-46BA-B3D1-043B3C485DA5}" path="Login_Correto.tcKDTest" />
+		<child name="Login_Errado" key="{5D13DD96-FD5F-41C6-93D3-CE5FA362804D}" path="Login_Errado.tcKDTest" />
+		<child name="Cadastro_Errado" key="{C1D5236F-3682-4419-ADD7-B151851C0B78}" path="Cadastro_Errado.tcKDTest" />
+	</children>
+</Root>

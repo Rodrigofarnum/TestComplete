@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{EE08CDAD-E92F-4E89-B82E-06AB96459552}">
+	<children>
+		<child name="Adopet - TestComplete " key="{7C5EDF75-B858-42D8-810A-C8241DEC1906}" path="Adopet - TestComplete .mds" />
+		<child name="TestProject1" key="{CE3902E1-DA5A-4CE4-B3B6-1581B34496E9}" path="TestProject1\TestProject1.mds" />
+	</children>
+	<testItems key="{299B8C9F-B30E-421C-8CAC-59A3D90F7290}">
+		<children>
+			<testItem key="{7C5EDF75-B858-42D8-810A-C8241DEC1906}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{CE3902E1-DA5A-4CE4-B3B6-1581B34496E9}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{4C75912C-9A2F-4B73-A60F-A3F248062C39}" />
+	<analysis key="{1D599A3B-5AA9-47F6-9ADD-FDDB835C9C0D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
