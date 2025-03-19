@@ -23,7 +23,7 @@ Abaixo estão alguns dos casos de teste realizados até agora, com os links leva
 - [Cadastro Errado](https://github.com/Rodrigofarnum/TestComplete/tree/main/Adopet%20-%20TestComplete/Evid%C3%AAncias%20de%20Teste/4_CadastroErrado)
 
 ### 3. Caso de Teste 3: **APImensagem**
-- [Caso de Teste 3 - API Mensagem](https://github.com/Rodrigofarnum/TestComplete/blob/main/Adopet%20-%20TestComplete/Evid%C3%AAncias%20de%20Teste/Casos%20de%20Testes/Caso%20de%20Teste%2003%20-%20API%20mensagens.pdf)
+- [Caso de Teste 3 - API Mensagem](https://github.com/Rodrigofarnum/TestComplete/blob/main/Adopet%20-%20TestComplete/Evid%C3%AAncias%20de%20Teste/Casos%20de%20Testes/Caso%20de%20Teste%2003%20-%20APImensaagem.pdf)
 - [API Mensagem](https://github.com/Rodrigofarnum/TestComplete/tree/main/Adopet%20-%20TestComplete/Evid%C3%AAncias%20de%20Teste/5_APImensagem)
 
 ## Próximos Passos
